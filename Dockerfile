@@ -10,6 +10,6 @@ ENV LC_ALL zh_CN.utf8
 RUN yum update -y && \
 yum install -y wget && \
 yum install -y unzip && \ 
-yum install -y java-1.7.0-openjdk.x86_64
+yum install -y java-1.8.0-openjdk.x86_64
 
 
